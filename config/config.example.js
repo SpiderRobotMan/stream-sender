@@ -1,7 +1,7 @@
 {
-	"readonly": false,
+	"readonly": true,
 
-	"demo": true,
+	"demo": false,
 
 	"email": {
 		"templatePath": "templates/example.ejs",
@@ -40,6 +40,8 @@
 		"addQuery": "",
 	},
 
-	"affectedServers": [],
-	"affectedDaemons": [],
+	"filename": "", // For Static File
+
+	"affectedServers": [], // List of multicraft server ids
+	"affectedDaemons": [], // List of multicraft daemons
 }
