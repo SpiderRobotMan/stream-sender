@@ -1,9 +1,11 @@
 {
 	"readonly": false,
 
+	"demo": true,
+
 	"email": {
 		"templatePath": "templates/example.ejs",
-		"from": "MCProHosting <noreply@mcprohosting.com>",
+		"from": "Apex Minecraft Hosting <support@apexminecrafthosting.com>",
 		"subject": "This is a test",
 		"marketing": false
 	},
@@ -22,10 +24,22 @@
 		}
 	},
 
-	"db": {
+	"whmcsDb": {
 		"host": "",
 		"user": "",
 		"password": "",
-		"database": ""
-	}
+		"database": "",
+		"addQuery": "",
+	},
+
+	"multicraftDb": {
+		"host": "",
+		"user": "",
+		"password": "",
+		"database": "",
+		"addQuery": "",
+	},
+
+	"affectedServers": [],
+	"affectedDaemons": [],
 }
